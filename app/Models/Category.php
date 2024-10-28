@@ -9,5 +9,5 @@ class Category extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'description']; // Add only the fields you want to allow mass assignment
+    protected $fillable = ['name', 'description']; 
 }
